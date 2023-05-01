@@ -1,3 +1,5 @@
+Safwan Islam, Tahmid Awal
+
 # Medical Condition Detection with MobileNetV2
 This code implements a machine learning model for detecting a medical condition in medical images, using the MobileNetV2 architecture and image data augmentation techniques.
 
