@@ -17,3 +17,6 @@ The model is trained on the augmented images from the training set using the fit
 The performance of the trained model is evaluated on the testing set by computing the accuracy score of the model's predictions using the Scikit-learn library. The predicted probabilities of the model are obtained using the predict() method of the Keras Model class, and are rounded to obtain binary predictions for each image in the testing set.
 
 Overall, this code provides a complete pipeline for training and evaluating a MobileNetV2 model for detecting a medical condition in medical images, using a dataset with image files and corresponding labels. The code can be easily adapted to other image classification tasks with similar datasets and can be improved by adjusting the model hyperparameters or using more advanced model architectures.
+
+
+ChatGPT has been used in this project
