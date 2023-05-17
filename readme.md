@@ -38,8 +38,6 @@ The dataset used in this project contains medical images of patients, where each
 # Preprocessing
 The first step in the code is to preprocess the dataset by adding new columns to the CSV files that contain the file paths of the images and the corresponding binary labels. The ImageDataGenerator class from the Keras library is then used to generate augmented and preprocessed images from the dataset, which are fed into the model during training.
 
-# Model Architecture
-The MobileNetV2 architecture is used as the backbone of the classification model, with the pre-trained weights on the ImageNet dataset used as initial weights for the model. The top layers of the model are rebuilt to include a global average pooling layer, batch normalization layers, and dense layers with ReLU activation functions and a sigmoid activation function for binary classification.
 
 # Training
 The model is trained on the augmented images from the training set using the fit() method of the Keras Model class, with hyperparameters such as the number of epochs, batch size, and learning rate set for the model. Learning rate scheduling and early stopping are implemented using callback functions during training to improve the model's performance and efficiency.
