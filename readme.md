@@ -1,6 +1,6 @@
 Safwan Islam, Tahmid Awal
 
-# Blood Clood Detection using DenseNET
+# Stroke Classification using DenseNET
 We aim to classify the origins of blood clots in ischemic stroke. We  build a model to differentiate between the two major subtypes of acute ischemic stroke (AIS): cardiac and large artery atherosclerosis. This goal is crucial to better predict stroke etiology, improve post-stroke treatment, and reduce the risk of a second stroke. The dataset is part of the Stroke Thromboembolism Registry of Imaging and Pathology (STRIP) project. By addressing challenges in data format, image file size, and pathology slide quantity, we will contribute to the ongoing efforts to leverage artificial intelligence for stroke management and research.
 
 # How to run and reproduce the results
